@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.infosys.infytel</groupId>
+	<groupId>com.call.details</groupId>
 	<artifactId>CallDetailsMS</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Call-Details-Microservice</name>
-	<description>InfyTel Call details Microservice</description>
+	<description>Call details Microservice</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
