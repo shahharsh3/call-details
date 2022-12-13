@@ -1,5 +1,5 @@
-create schema `infytel-customer`;
-use `infytel-customer`;
+create schema `customer`;
+use `customer`;
 
 create table customer(
 phone_no bigint primary key,
@@ -14,8 +14,8 @@ insert into customer values(9009009001,'Mark',25,'M','Infy Chicago',1,'infy@123'
 insert into customer values(9009009002,'Steve',56,'M','Infy Texas',2,'7hjUavb*');
 insert into customer values(9009009003,'Linda',23,'F','Infy NY',3,'@aPbj8');
 
-create schema `infytel-calldetails`;
-use `infytel-calldetails`;
+create schema `calldetails`;
+use `calldetails`;
 
 create table calldetails(
 id integer primary key,
@@ -33,8 +33,8 @@ insert into calldetails values(6,9009009003,9009009001,'2017-08-15',126);
 insert into calldetails values(7,9009009001,9009009002,'2017-08-16',79);
 insert into calldetails values(8,9009009002,9009009003,'2017-08-17',3);
 
-create schema `infytel-friend-family`;
-use `infytel-friend-family`;
+create schema `friend-family`;
+use `friend-family`;
 
 create table friendfamily(
 id integer primary key AUTO_INCREMENT,
@@ -46,8 +46,8 @@ insert into friendfamily values(2,9009009001,9009009003);
 insert into friendfamily values(3,9009009002,9009009005);
 insert into friendfamily values(4,9009009003,9009009001);
 
-create schema `infytel-plan`;
-use `infytel-plan`;
+create schema `plan`;
+use `plan`;
 
 create table plan(
 plan_id integer primary key,
