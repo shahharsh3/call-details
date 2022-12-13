@@ -10,9 +10,9 @@ address varchar(50),
 plan_id integer,
 password varchar(50)
 );
-insert into customer values(9009009001,'Mark',25,'M','Infy Chicago',1,'infy@123');
-insert into customer values(9009009002,'Steve',56,'M','Infy Texas',2,'7hjUavb*');
-insert into customer values(9009009003,'Linda',23,'F','Infy NY',3,'@aPbj8');
+insert into customer values(9009009001,'Mark',25,'M','Chicago',1,'in@123');
+insert into customer values(9009009002,'Steve',56,'M','Texas',2,'7hjUavb*');
+insert into customer values(9009009003,'Linda',23,'F','NY',3,'@aPbj8');
 
 create schema `calldetails`;
 use `calldetails`;
